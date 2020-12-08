@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/31d0f1feaa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <div class="row">
+            <div class="col-4">
+                <form class="search-form" id="search-form">
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="city-input" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <h1 id="city">
+            BOLZANO, ITALY
+        </h1>
+        <h2 id="date">
+            SUNDAY, 14:22 PM
+        </h2>
+        <h3 id="temperature">
+            13 <span class = "units">ºC</span>
+        </h3>
+        <h4>
+            3ºC / 14ºC
+        </h4>
+        <hr />
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    MONDAY <br />
+                    <i class="fas fa-cloud-sun"></i><br />
+                    15º / 3º
+                </div>
+                <div class="col-sm">
+                    TUESDAY <br />
+                    <i class="fas fa-cloud-sun"></i><br />
+                    15º / 3º
+                </div>
+                <div class="col-sm">
+                    WEDNESDAY <br />
+                    <i class="fas fa-sun"></i><br />
+                    14º / 3º
+                </div>
+                <div class="col-sm">
+                    THURSDAY <br />
+                    <i class="fas fa-cloud-sun"></i><br />
+                    17º / 8º
+                </div>
+                <div class="col-sm">
+                    FRIDAY <br />
+                    <i class="fas fa-cloud-sun"></i><br />
+                    16º / 7º
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
